@@ -1,0 +1,112 @@
+<svg id="eLPvNlgETxz1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 79 79"
+    shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+    <style>
+        <![CDATA[
+        #eLPvNlgETxz3_tr {
+            animation: eLPvNlgETxz3_tr__tr 45000ms linear infinite normal forwards
+        }
+
+        @keyframes eLPvNlgETxz3_tr__tr {
+            0% {
+                transform: translate(38.323213px, 38.499982px) rotate(0deg)
+            }
+
+            100% {
+                transform: translate(38.323213px, 38.499982px) rotate(360deg)
+            }
+        }
+
+        #eLPvNlgETxz9_tr {
+            animation: eLPvNlgETxz9_tr__tr 45000ms linear infinite normal forwards
+        }
+
+        @keyframes eLPvNlgETxz9_tr__tr {
+            0% {
+                transform: translate(38.5px, 38.5px) rotate(0deg)
+            }
+
+            55.555556% {
+                transform: translate(38.5px, 38.5px) rotate(360deg)
+            }
+
+            100% {
+                transform: translate(38.5px, 38.5px) rotate(360deg)
+            }
+        }
+
+        #eLPvNlgETxz11_tr {
+            animation: eLPvNlgETxz11_tr__tr 45000ms linear infinite normal forwards
+        }
+
+        @keyframes eLPvNlgETxz11_tr__tr {
+            0% {
+                transform: translate(38.5px, 38.5px) rotate(360deg)
+            }
+
+            55.555556% {
+                transform: translate(38.5px, 38.5px) rotate(0deg)
+            }
+
+            100% {
+                transform: translate(38.5px, 38.5px) rotate(0deg)
+            }
+        }
+        ]]>
+    </style>
+    <g id="eLPvNlgETxz2" transform="matrix(1 0 0 1 1 1)">
+        <g id="eLPvNlgETxz3_tr" transform="translate(38.323213,38.499982) rotate(0)">
+            <g id="eLPvNlgETxz3" transform="translate(-38.323213,-38.499981)">
+                <rect id="eLPvNlgETxz4" width="2.14" height="1.28" rx="0.64" ry="0.64"
+                    transform="matrix(-0.31255 -1.362976 1.500274 -0.344034 6.606286 46.065458)" fill="rgb(255,178,0)"
+                    stroke="none" stroke-width="0" />
+                <rect id="eLPvNlgETxz5" width="2.14" height="1.28" rx="0.64" ry="0.64"
+                    transform="matrix(-0.518696 -1.298594 1.429407 -0.570946 68.572023 29.223345)" fill="rgb(255,178,0)"
+                    stroke="none" stroke-width="0" />
+                <rect id="eLPvNlgETxz6" width="2.14" height="1.28" rx="0.64" ry="0.64"
+                    transform="matrix(-0.765022 -1.170526 1.288438 -0.842086 66.451056 23.74501)" fill="rgb(255,178,0)"
+                    stroke="none" stroke-width="0" />
+                <rect id="eLPvNlgETxz7" width="2.14" height="1.28" rx="0.64" ry="0.64"
+                    transform="matrix(-0.785919 -1.1566 1.273109 -0.865088 62.753251 18.727253)" fill="rgb(255,178,0)"
+                    stroke="none" stroke-width="0" />
+                <path id="eLPvNlgETxz8"
+                    d="M6.709,38.5C6.709,20.827,21.036,6.5,38.709,6.5C46.462352,6.488673,53.954098,9.303278,59.782,14.417M70.554,35.334C70.657,36.376,70.709,37.432,70.709,38.5C70.709,56.173,56.382,70.5,38.709,70.5C24.915,70.5,13.16,61.772,8.664,49.539"
+                    fill="none" fill-rule="evenodd" stroke="rgb(255,178,0)" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-dasharray="1,6" />
+            </g>
+        </g>
+        <g id="eLPvNlgETxz9_tr" transform="translate(38.5,38.5) rotate(0)">
+            <path id="eLPvNlgETxz9" d="M38.5,0L38.5,3M38.5,74L38.5,77" transform="translate(-38.5,-38.5)" fill="none"
+                fill-rule="evenodd" stroke="rgb(255,178,0)" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+        </g>
+        <path id="eLPvNlgETxz10" d="M38.5,48.838L38.5,70.838" fill="none" fill-rule="evenodd" stroke="rgb(255,178,0)"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1,6" />
+        <g id="eLPvNlgETxz11_tr" transform="translate(38.5,38.5) rotate(360)">
+            <path id="eLPvNlgETxz11" d="M77,38.5L74,38.5M3,38.5L0,38.5" transform="translate(-38.5,-38.5)" fill="none"
+                fill-rule="evenodd" stroke="rgb(255,178,0)" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+        </g>
+        <path id="eLPvNlgETxz12"
+            d="M10.745,46.045C11.093423,47.091603,10.531444,48.223157,9.487,48.578L8.513,48.905C7.466151,49.252743,6.334873,48.690454,5.98,47.646L3.874,41.378C3.525817,40.331082,4.08889,39.199573,5.134,38.846L6.106,38.519C7.152562,38.171166,8.283712,38.732945,8.639,39.777"
+            fill="none" fill-rule="evenodd" stroke="rgb(255,255,255)" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+        <path id="eLPvNlgETxz13" d="M10.9815,46.9072L25.7255,43.1212L22.3445,33.0622L8.3065,38.9482Z" fill="none"
+            fill-rule="evenodd" stroke="rgb(255,255,255)" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+        <path id="eLPvNlgETxz14"
+            d="M41.876,40.572C42.5637,43.476234,40.846069,46.407845,37.976368,47.227798C35.106667,48.047751,32.099486,46.466149,31.149,43.637"
+            fill="none" fill-rule="evenodd" stroke="rgb(255,255,255)" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+        <path id="eLPvNlgETxz15"
+            d="M60.7579,16.0278L21.6639,31.1958L26.3099,45.0198L31.1489,43.6368L41.8759,40.5718L66.6299,33.4988"
+            fill="none" fill-rule="evenodd" stroke="rgb(255,255,255)" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+        <path id="eLPvNlgETxz16" d="M28.177,32.95L58.177,21.95" transform="matrix(1 0 0 1 1.241512 3.423122)"
+            fill="none" fill-rule="evenodd" stroke="rgb(255,178,0)" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" stroke-dasharray="1,6" />
+        <path id="eLPvNlgETxz17"
+            d="M65.52,14.42L65.167,13.368C64.969587,12.784345,64.337495,12.470087,63.753,12.665L61.105,13.554C60.521611,13.752268,60.207937,14.384532,60.403,14.969L60.858,16.325L66.352,32.673L66.986,34.558C67.183859,35.141266,67.815547,35.455323,68.4,35.261L71.048,34.371C71.630866,34.172726,71.944413,33.541165,71.75,32.957L71.219,31.375M71.219,31.375C73.269,29.309,73.922,25.392,72.605,21.474C71.289,17.556,68.403,14.828,65.521,14.419L71.219,31.375ZM38.632,47.935L23.042,63.075M38.476,47.935L54.066,63.075"
+            fill="none" fill-rule="evenodd" stroke="rgb(255,255,255)" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+    </g>
+</svg>
