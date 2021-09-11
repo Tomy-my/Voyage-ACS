@@ -1,0 +1,99 @@
+/* -------------------------------Navigation------------------------------- */
+@media all and (max-width: 1250px) {
+    nav {
+      padding-left: 40px;
+      padding-right: 0px;
+    }
+  }
+  
+  @media all and (max-width: 900px) {
+    nav {
+      position: fixed;
+      bottom: 0;
+    }
+  
+    .ct_left_nav {
+      display: none;
+    }
+  
+    .ct_bot_nav {
+      display: none;
+    }
+  
+    ._ct_nav_g {
+      display: none;
+    }
+  
+    .container_nav {
+        text-align: center;
+    }
+  
+    .container_nav a {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  
+      height: 55px;
+    }
+  
+    .logo_cat{
+        display: block;
+    }
+  
+    ._ct_nav_d .fa-chevron-down {
+        display: none;
+    }
+  
+    .logo_cat {
+        display: flex;
+        justify-content: center;
+    }
+  
+    .logo_mobile {
+        display: block;
+    }
+  
+    .wrapper-no4{
+  
+      display: flex;
+  }
+  }
+  /* -------------------------------Index/Voyager------------------------------- */
+  @media all and (max-width: 900px) {
+    .ct_background {
+      height: 100vh;
+    }
+    .sous_ct_voyager {
+      display: none;
+    }
+  }
+
+  @media all and (max-width: 850px) {
+    nav {
+      padding-left: 0px;
+    }
+    .ct_left_nav {
+      width: 20%;
+    }
+  
+    .ct_bot_nav {
+      width: 0%;
+    }
+  
+    .container_nav {
+      margin-right: 27px;
+    }
+  
+    ._ct_nav_d {
+      width: 140px;
+    }
+  
+    ._ct_nav_g {
+      margin-right: 0px;
+    }
+  }
+  
+  /* 740 */
+  
+  /* 460 min */
+  

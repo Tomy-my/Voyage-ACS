@@ -1,0 +1,40 @@
+/* all  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500&display=swap');
+
+/* Globale two */
+
+@font-face
+{
+    font-family: 'GlobalBlack';
+    src: url('../fonts/FontCerealBlack.ttf')
+}
+
+@font-face
+{
+    font-family: 'GlobalBold';
+    src: url('../fonts/FontCerealBold.ttf')
+}
+
+@font-face
+{
+    font-family: 'GlobalBook';
+    src: url('../fonts/FontCerealBook.ttf')
+}
+
+@font-face
+{
+    font-family: 'GlobalExtraBold';
+    src: url('../fonts/FontCerealExtraBold.ttf')
+}
+
+@font-face
+{
+    font-family: 'GlobalLight';
+    src: url('../fonts/FontCerealLight.ttf')
+}
+
+@font-face
+{
+    font-family: 'GlobalMedium';
+    src: url('../fonts/FontCerealMedium.ttf')
+}
