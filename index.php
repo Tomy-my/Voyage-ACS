@@ -118,20 +118,23 @@ include('view/header.php');
     <div class="leading_title">
         <h1>Où partir en 2022 ?</h1>
         <h2>Notre sélection des meilleurs destinations pour voyager en toute sécurité</h2>
-        <button id="btn_special_season">Hivernal</button>
     </div>
-    <div class="ct_selection" >
+    <div class="ct_selection">
         <div class="_selection">
+            <img class="picture" src="public/images/icelande.jpg" alt="Image illustration du pays">
             <h3>Islande</h3>
             <button class="btn_selection">Découvrir</button>
+            <div class="filter"></div>
         </div>
         <div class="_selection">
-            <h3>Norvège</h3>
+            <img class="picture" src="public/images/norway.png" alt="Image illustration du pays"> <h3>Norvège</h3>
             <button class="btn_selection">Découvrir</button>
+            <div class="filter"></div>
         </div>
         <div class="_selection">
-            <h3>Canada</h3>
+            <img class="picture" src="public/images/canada.jpg" alt="Image illustration du pays"> <h3>Canada</h3>
             <button class="btn_selection">Découvrir</button>
+            <div class="filter"></div>
         </div>
     </div>
 </div>

@@ -1,9 +1,13 @@
 
-
-
-
-
-
+/* ------------Écran inférieur à 1500px------------ */
+@media all and (max-width: 1500px) {
+  .promote .leading_title {
+    padding-left: 70px
+  }
+  .promote .ct_selection{
+    width: auto;
+  }
+}
 /* ------------Écran inférieur à 1430px------------ */
 @media all and (max-width: 1430px) {
   .headband {
@@ -11,7 +15,6 @@
     padding-right: 100px;
   }
 }
-
 /* ------------Écran inférieur à 1250px------------ */
 @media all and (max-width: 1250px) {
     /* ------------Navigation------------ */
@@ -24,6 +27,18 @@
   .headband {
     padding-left: 0px;
     padding-right: 0px;
+  }
+}
+/* ------------Écran inférieur à 1080px------------ */
+@media all and (max-width: 1080px) {
+  .promote {
+    height: 155vh;
+  }
+  .promote .leading_title {
+    padding-left: 90px
+  }
+  .promote .ct_selection{
+    height: 135vh;
   }
 }
 /* ------------Écran inférieur à 900px------------ */
@@ -85,21 +100,26 @@
   .sous_ct_voyager {
     display: none;
   }
-  /* -------------------------------------- */
+ /* -------------------------------------- */
 /* ------------Index / Bandeau------------  */
-.headband {
-  flex-direction: column;
+  .headband {
+    flex-direction: column;
 
-  height: 450px;
-}
-.headband ._left,
-.headband ._mid,
-.headband ._right {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-right: auto;
-  margin-left: auto;
-}
+    height: 450px;
+  }
+  .headband ._left,
+  .headband ._mid,
+  .headband ._right {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* -------------------------------------- */
+/* ------------Index / Leading------------  */
+  .promote .leading_title {
+    padding-left: 45px
+  }
 }
 /* ------------Écran inférieur à 850px------------ */
 @media all and (max-width: 850px) {
@@ -125,6 +145,18 @@
 
   ._ct_nav_g {
     margin-right: 0px;
+  }
+}
+/* ------------Écran inférieur à 720px------------ */
+@media all and (max-width: 719px) {
+  .promote {
+    height: 220vh;
+  }
+  .promote .leading_title {
+    padding-left: 10px
+  }
+  .promote .ct_selection{
+    height: 200vh;
   }
 }
 /* ------------Écran inférieur à 470px------------ */
