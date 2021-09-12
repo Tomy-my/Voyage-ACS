@@ -344,10 +344,6 @@ option {
   background-color: #1e475c;
 }
 
-.ct_mise_en_avant {
-  height: 90vh;
-}
-
 .logo_mobile {
   display: none;
 
@@ -1373,14 +1369,63 @@ https://codepen.io/eyesight/pen/KGEebY
 
   line-height: 23px;
 }
+/* ------------------------------------------------------------------ */
+.promote {
+  height: 90vh;
+}
 
+.promote .leading_title {
+  margin-top: 50px;
 
-.ct_mise_en_avant ._titre{
-  font-size: 28px;
+  padding-left: 290px;
+  padding-right: 290px;
+}
+
+.promote .leading_title h1{
+  font-size: 24px;
   font-weight: 600;
   font-family: globalMedium;
 }
 
+.promote .leading_title h2 {
+  margin-top: 15px;
 
+  font-size: 16px;
+}
 
+#btn_special_season {
+  width: 80px;
+  height: 25px;
 
+  margin-top: 7px;
+
+  background-color: rgb(30, 71, 91);
+  
+  border: solid 1px #03529b;
+  border-radius: 13px;
+
+  box-shadow: 0px 4px 9px 0px #00000059;
+
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+
+  color: white;
+}
+
+.promote .ct_selection {
+  display: flex;
+  justify-content: space-around;
+
+  width: 76%;
+
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.promote ._selection {
+  width: 360px;
+  height: 480px;
+
+  background-color: rgb(136, 136, 136);
+}
