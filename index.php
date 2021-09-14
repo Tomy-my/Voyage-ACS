@@ -121,20 +121,75 @@ include('view/header.php');
     </div>
     <div class="ct_selection">
         <div class="_selection">
-            <img class="picture" src="public/images/icelande.jpg" alt="Image illustration du pays">
+            <img class="picture" src="public/images/icelande.jpg" alt="Illustration du pays">
             <h3>Islande</h3>
             <button class="btn_selection">Découvrir</button>
             <div class="filter"></div>
         </div>
         <div class="_selection">
-            <img class="picture" src="public/images/norway.png" alt="Image illustration du pays"> <h3>Norvège</h3>
+            <img class="picture" src="public/images/norway.png" alt="Illustration du pays"> 
+            <h3>Norvège</h3>
             <button class="btn_selection">Découvrir</button>
             <div class="filter"></div>
         </div>
         <div class="_selection">
-            <img class="picture" src="public/images/canada.jpg" alt="Image illustration du pays"> <h3>Canada</h3>
+            <img class="picture" src="public/images/canada.jpg" alt="Illustration du pays"> 
+            <h3>Canada</h3>
             <button class="btn_selection">Découvrir</button>
             <div class="filter"></div>
+        </div>
+    </div>
+</div>
+<div class="promote_activity">
+    <div class="_container">
+        <div class="pa_line1">
+            <div class="ct_map">
+                <img src="public/images/map.svg" alt="décoration">
+                <h3>Libérez votre curiosité sur le monde pour vivre des expériences uniques</h3>
+                <p>En couple ou en famille ? Plutôt culture ou aventure ? Découvrez nos idées de voyage personnalisé qui sont 100% sécurisés.</p>
+                <a href="#">
+                    VOIR TOUTES NOS DESTINATIONS&nbsp; <i class="fas fa-angle-right"></i>
+                    <hr id="activity_a_underline">
+                </a>
+            </div>
+            <div class="_activity">
+                <div class="_ct_img_activity">
+                    <img src="public/images/ship.jpg" alt="Image illustrant le pays + l'activité">
+                    <h3>Croisères </h3>
+                    <button class="btn_activity">
+                        <a href="https://www.hurtigruten.fr/destinations/norvege/voyage-classique-du-nord-au-sud-kirkenes-bergen/?_hrgb=2">
+                            Découvrir
+                        </a>
+                    </button>
+                    <div class="filter"></div>
+                </div>
+            </div>
+        </div>
+        <div class="pa_line2">
+            <div class="_activity">
+                <div class="_ct_img_activity">
+                    <img src="public/images/marche.jpg" alt="Image illustrant l'activité">
+                    <h3>Randonées</h3>
+                    <button class="btn_activity">
+                        <a href="#">
+                            Découvrir
+                        </a>
+                    </button>
+                    <div class="filter"></div>
+                </div>
+            </div>
+            <div class="_activity">
+                <div class="_ct_img_activity">
+                    <img src="public/images/repos.jpg" alt="Image illustrant le pays l'activité">
+                    <h3>Repos : Plages paradisiaques</h3>
+                    <button class="btn_activity">
+                        <a href="#">
+                            Découvrir
+                        </a>
+                    </button>
+                    <div class="filter"></div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

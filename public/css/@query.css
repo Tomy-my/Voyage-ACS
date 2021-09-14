@@ -1,10 +1,9 @@
-
 /* ------------Écran inférieur à 1500px------------ */
 @media all and (max-width: 1500px) {
   .promote .leading_title {
-    padding-left: 70px
+    padding-left: 70px;
   }
-  .promote .ct_selection{
+  .promote .ct_selection {
     width: auto;
   }
 }
@@ -17,16 +16,39 @@
 }
 /* ------------Écran inférieur à 1250px------------ */
 @media all and (max-width: 1250px) {
-    /* ------------Navigation------------ */
+  /* ------------Navigation------------ */
   nav {
     padding-left: 40px;
     padding-right: 0px;
   }
-/* -------------------------------------- */
-/* ------------Index / Bandeau------------  */
+  /* -------------------------------------- */
+  /* ------------Index / Bandeau------------  */
   .headband {
     padding-left: 0px;
     padding-right: 0px;
+  }
+  /* -------------------------------------- */
+  /* ------------Index / Activité------------  */
+  .promote_activity ._container {
+    width: auto;
+  }
+  .pa_line1,
+  .pa_line2 {
+    flex-direction: column;
+
+    height: 100%;
+
+    align-items: center;
+  }
+  .pa_line1 ._activity,
+  .pa_line2 ._activity {
+    width: auto;
+  }
+  .ct_map {
+    margin-bottom: 30px;
+  }
+  ._activity ._ct_img_activity {
+    margin-bottom: 30px; 
   }
 }
 /* ------------Écran inférieur à 1080px------------ */
@@ -35,9 +57,9 @@
     height: 155vh;
   }
   .promote .leading_title {
-    padding-left: 90px
+    padding-left: 90px;
   }
-  .promote .ct_selection{
+  .promote .ct_selection {
     height: 135vh;
   }
 }
@@ -62,7 +84,7 @@
   }
 
   .container_nav {
-      text-align: center;
+    text-align: center;
   }
 
   .container_nav a {
@@ -73,35 +95,35 @@
     height: 55px;
   }
 
-  .logo_cat{
-      display: block;
+  .logo_cat {
+    display: block;
   }
 
   ._ct_nav_d .fa-chevron-down {
-      display: none;
+    display: none;
   }
 
   .logo_cat {
-      display: flex;
-      justify-content: center;
+    display: flex;
+    justify-content: center;
   }
 
   .logo_mobile {
-      display: block;
+    display: block;
   }
-/* -------------------------------------- */
-/* ------------Index / Background------------  */
-  .wrapper-no4{
+  /* -------------------------------------- */
+  /* ------------Index / Background------------  */
+  .wrapper-no4 {
     display: flex;
-}
+  }
   .ct_background {
     height: 100vh;
   }
   .sous_ct_voyager {
     display: none;
   }
- /* -------------------------------------- */
-/* ------------Index / Bandeau------------  */
+  /* -------------------------------------- */
+  /* ------------Index / Bandeau------------  */
   .headband {
     flex-direction: column;
 
@@ -116,14 +138,35 @@
     margin-left: auto;
   }
   /* -------------------------------------- */
-/* ------------Index / Leading------------  */
+  /* ------------Index / Promote------------  */
+  .promote {
+    height: 210vh;
+  }
   .promote .leading_title {
-    padding-left: 45px
+    padding-left: 45px;
+  }
+  .promote .ct_selection {
+    width: 76%;
+    height: 200vh;
+  }
+  .pa_line1 ._activity,
+  .pa_line2 ._activity {
+    width: 80%;
+  }
+  ._activity ._ct_img_activity {
+    width: 100%;
+    height: 90%;
+  }
+  ._activity ._ct_img_activity h3 {
+    font-size: 23px;
+  }
+  .filter {
+    display: none;
   }
 }
 /* ------------Écran inférieur à 850px------------ */
 @media all and (max-width: 850px) {
-    /* ------------Navigation------------ */
+  /* ------------Navigation------------ */
   nav {
     padding-left: 0px;
   }
@@ -150,22 +193,19 @@
 /* ------------Écran inférieur à 720px------------ */
 @media all and (max-width: 719px) {
   .promote {
-    height: 220vh;
+    height: 207vh;
   }
   .promote .leading_title {
-    padding-left: 10px
-  }
-  .promote .ct_selection{
-    height: 200vh;
+    padding-left: 10px;
   }
 }
 /* ------------Écran inférieur à 470px------------ */
-  @media all and (max-width: 470px) {
-    /* ------------Index / Background------------  */
-    .wrapper-no4 .button-bird {
-      width: 330px;
-    }
-    .wrapper-no4 .bird {
-      display: none;
-    }
+@media all and (max-width: 470px) {
+  /* ------------Index / Background------------  */
+  .wrapper-no4 .button-bird {
+    width: 330px;
   }
+  .wrapper-no4 .bird {
+    display: none;
+  }
+}
