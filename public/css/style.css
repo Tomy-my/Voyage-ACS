@@ -231,9 +231,11 @@ nav a:hover {
   display: flex;
   flex-direction: row !important;
 
-  width: 34%;
+  width: 42%;
 
   margin-left: 1px;
+
+  padding-left: 30px;
 
   border-radius: 40px;
 }
