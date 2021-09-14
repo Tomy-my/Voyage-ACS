@@ -181,7 +181,7 @@ include('view/header.php');
             <div class="_activity">
                 <div class="_ct_img_activity">
                     <img src="public/images/repos.jpg" alt="Image illustrant le pays l'activité">
-                    <h3>Repos : Plages paradisiaques</h3>
+                    <h3>Repos</h3>
                     <button class="btn_activity">
                         <a href="#">
                             Découvrir

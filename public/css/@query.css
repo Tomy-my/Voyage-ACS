@@ -45,6 +45,7 @@
     width: auto;
   }
   .ct_map {
+    width: 95%;
     margin-bottom: 30px;
   }
   ._activity ._ct_img_activity {
@@ -142,6 +143,9 @@
   .promote {
     height: 210vh;
   }
+  .promote_activity {
+    height: 170vh;
+  }
   .promote .leading_title {
     padding-left: 45px;
   }
@@ -155,7 +159,7 @@
   }
   ._activity ._ct_img_activity {
     width: 100%;
-    height: 90%;
+    height: 240px;
   }
   ._activity ._ct_img_activity h3 {
     font-size: 23px;
@@ -193,7 +197,7 @@
 /* ------------Écran inférieur à 720px------------ */
 @media all and (max-width: 719px) {
   .promote {
-    height: 207vh;
+    height: 214vh;
   }
   .promote .leading_title {
     padding-left: 10px;
