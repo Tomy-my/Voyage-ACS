@@ -1,3 +1,19 @@
+/* ------------Écran inférieur à 1845px------------ */
+@media all and (max-width: 1845px) {
+  .footer_left {
+    width: 65%;
+  }
+  .footer_mid {
+    /* display: none; */
+  }
+}
+/* ------------Écran inférieur à 1666px------------ */
+@media all and (max-width: 1666px) {
+  footer {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
 /* ------------Écran inférieur à 1500px------------ */
 @media all and (max-width: 1500px) {
   .promote .leading_title {
@@ -49,7 +65,7 @@
     margin-bottom: 30px;
   }
   ._activity ._ct_img_activity {
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
   }
 }
 /* ------------Écran inférieur à 1080px------------ */
@@ -141,17 +157,17 @@
   /* -------------------------------------- */
   /* ------------Index / Promote------------  */
   .promote {
-    height: 210vh;
+    height: 1875px;
   }
   .promote_activity {
-    height: 170vh;
+    height: 1295px;
   }
   .promote .leading_title {
     padding-left: 45px;
   }
   .promote .ct_selection {
     width: 76%;
-    height: 200vh;
+    height: 93%;
   }
   .pa_line1 ._activity,
   .pa_line2 ._activity {
@@ -165,6 +181,11 @@
     font-size: 23px;
   }
   .filter {
+    display: none;
+  }
+  /* -------------------------------------- */
+  /* ------------Footer------------  */
+  footer {
     display: none;
   }
 }
@@ -193,11 +214,16 @@
   ._ct_nav_g {
     margin-right: 0px;
   }
+  /* -------------------------------------- */
+  /* ------------Index / Promote------------  */
+  .promote_activity {
+    height: 1350px;
+  }
 }
 /* ------------Écran inférieur à 720px------------ */
 @media all and (max-width: 719px) {
   .promote {
-    height: 214vh;
+    height: 1700px;
   }
   .promote .leading_title {
     padding-left: 10px;

@@ -1674,3 +1674,92 @@ https://codepen.io/eyesight/pen/KGEebY
 
   align-items: end;
 }
+
+.pa_line2 .filter {
+  top: -62px !important;
+
+  margin-top: -275px;
+}
+
+.pa_line2 h3 {
+  top: -10px !important;
+
+  margin-top: -100px;
+}
+
+.pa_line2 .btn_activity {
+  top: 15px !important;
+
+  margin-top: -366px;
+}
+
+/* -------------------------------------------------------------- */
+
+/* -------------------------------Navigation------------------------------- */
+footer {
+  display: flex;
+  justify-content: center;
+
+  height: 60px;
+
+  margin-top: 40px;
+
+  padding-left: 390px;
+  padding-right: 390px;
+
+  background-color: #1c3b4a;
+
+  color: white;
+
+  align-items: center;
+}
+
+footer a,
+footer a:link,
+footer a:visited {
+  color: white;
+}
+
+.conf, 
+.style_corner {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.sc_left {
+  margin-right: 8px !important;
+}
+
+.sc_right {
+  margin-left: 8px !important;
+}
+
+.footer_logo {
+  width: 110px;
+}
+
+.footer_left{
+  display: flex;
+  width: 46.3%;
+}
+
+.footer_mid {
+  width: 19.3%;
+}
+
+.footer_right {
+  display: flex;
+  width: 46.3%;
+  justify-content: end;
+}
+
+.footer_social {
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+
+  width: 23%;
+
+  margin-left: 5px;
+}
