@@ -8,16 +8,16 @@
     </div>
     <div class="ct_mid_nav">
         <div class="container_nav _ct_nav_d">
-            <a href="./index.php">
+            <a href="./construction.php">
                 <div class="logo_cat">
                     <i class="fas fa-map-marked-alt"></i>
                 </div>
-                Destinations <i class="fas fa-chevron-down"></i>
+                Destinations<i class="fas fa-map-marked-alt"></i>
             </a>
             <div class="underline _ud"></div>
         </div>
         <div class="container_nav _ct_nav_c">
-            <a href="./index.php">
+            <a href="./construction.php">
                 <div class="logo_cat">
                     <i class="fas fa-anchor"></i>
                 </div>
@@ -26,7 +26,7 @@
             <div class="underline _uc"></div>
         </div>
         <div class="container_nav _ct_nav_h">
-            <a href="./index.php">
+            <a href="./construction.php">
                 <div class="logo_cat">
                     <i class="fas fa-hotel"></i>
                 </div>
@@ -35,7 +35,7 @@
             <div class="underline _uh"></div>
         </div>
         <div class="container_nav _ct_nav_g">
-            <a href="./index.php">
+            <a href="./construction.php">
                 Galerie
             </a>
             <div class="underline _ug"></div>

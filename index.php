@@ -1,9 +1,9 @@
-<?php 
+<?php
 $titre = "Voyage inexploré | Accueil";
 
 include('view/header.php');
 
-    include('view/navigation.php');
+include('view/navigation.php');
 ?>
 <div class="logo_mobile">
     <img src="public/images/mainLogo2.svg">
@@ -47,11 +47,9 @@ include('view/header.php');
             </div>
         </div>
         <div class="wrapper-no4">
-            <button class="button-bird">
+            <button onclick="Voyage()" class="button-bird">
                 <p class="button-bird__text"><i class="fas fa-crow"></i>&nbsp; <span>Commençons le voyage ! </span></p>
-                <svg version="1.1" class="feather" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 75 38"
-                    style="enable-background:new 0 0 75 38;" xml:space="preserve">
+                <svg version="1.1" class="feather" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 75 38" style="enable-background:new 0 0 75 38;" xml:space="preserve">
                     <g>
                         <path d="M20.8,31.6c3.1-0.7,2.9-2.3,2,1c9.1,4.4,20.4,3.7,29.1-0.8l0,0c0.7-2.1,1-3.9,1-3.9c0.6,0.8,0.8,1.7,1,2.9
                     c4.1-2.3,7.6-5.3,10.2-8.3c0.4-2.2,0.4-4,0.4-4.1c0.6,0.4,0.9,1.2,1.2,2.1c4.5-6.1,5.4-11.2,3.7-13.5c1.1-2.6,1.6-5.4,1.2-7.7
@@ -123,19 +121,31 @@ include('view/header.php');
         <div class="_selection">
             <img class="picture" src="public/images/icelande.jpg" alt="Illustration du pays">
             <h3>Islande</h3>
-            <button class="btn_selection">Découvrir</button>
+            <button class="btn_selection">
+                <a href="construction.php">
+                    Découvrir
+                </a>
+            </button>
             <div class="filter"></div>
         </div>
         <div class="_selection">
-            <img class="picture" src="public/images/norway.png" alt="Illustration du pays"> 
+            <img class="picture" src="public/images/norway.png" alt="Illustration du pays">
             <h3>Norvège</h3>
-            <button class="btn_selection">Découvrir</button>
+            <button class="btn_selection">
+                <a href="construction.php">
+                    Découvrir
+                </a>
+            </button>
             <div class="filter"></div>
         </div>
         <div class="_selection">
-            <img class="picture" src="public/images/canada.jpg" alt="Illustration du pays"> 
+            <img class="picture" src="public/images/canada.jpg" alt="Illustration du pays">
             <h3>Canada</h3>
-            <button class="btn_selection">Découvrir</button>
+            <button class="btn_selection">
+                <a href="construction.php">
+                    Découvrir
+                </a>
+            </button>
             <div class="filter"></div>
         </div>
     </div>
@@ -147,7 +157,7 @@ include('view/header.php');
                 <img src="public/images/map.svg" alt="décoration">
                 <h3>Libérez votre curiosité sur le monde pour vivre des expériences uniques</h3>
                 <p>En couple ou en famille ? Plutôt culture ou aventure ? Découvrez nos idées de voyage personnalisé qui sont 100% sécurisés.</p>
-                <a href="#">
+                <a href="construction.php">
                     VOIR TOUTES NOS DESTINATIONS&nbsp; <i class="fas fa-angle-right"></i>
                     <hr id="activity_a_underline">
                 </a>
@@ -157,7 +167,7 @@ include('view/header.php');
                     <img src="public/images/ship.jpg" alt="Image illustrant le pays + l'activité">
                     <h3>Croisères </h3>
                     <button class="btn_activity">
-                        <a href="https://www.hurtigruten.fr/destinations/norvege/voyage-classique-du-nord-au-sud-kirkenes-bergen/?_hrgb=2">
+                        <a href="construction.php">
                             Découvrir
                         </a>
                     </button>
@@ -171,7 +181,7 @@ include('view/header.php');
                     <img src="public/images/marche.jpg" alt="Image illustrant l'activité">
                     <h3>Randonées</h3>
                     <button class="btn_activity">
-                        <a href="#">
+                        <a href="construction.php">
                             Découvrir
                         </a>
                     </button>
@@ -180,10 +190,10 @@ include('view/header.php');
             </div>
             <div class="_activity">
                 <div class="_ct_img_activity">
-                    <img src="public/images/repos.jpg" alt="Image illustrant le pays l'activité">
+                    <img src="public/images/repos.jpg" alt="Image illustrant l'activité">
                     <h3>Repos</h3>
                     <button class="btn_activity">
-                        <a href="#">
+                        <a href="construction.php">
                             Découvrir
                         </a>
                     </button>
@@ -194,6 +204,6 @@ include('view/header.php');
     </div>
 </div>
 
-<?php    
-include('view/footer.php');    
+<?php
+include('view/footer.php');
 ?>

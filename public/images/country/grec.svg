@@ -1,0 +1,27 @@
+<svg id="Flag" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1990 1050">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #0d5eaf;
+      }
+    </style>
+  </defs>
+  <title>grec</title>
+  <g>
+    <rect class="cls-1" x="0.049" width="1989.951" height="1050"/>
+    <g>
+      <rect class="cls-2" x="0.049" y="232.994" width="1989.951" height="118.796"/>
+      <rect class="cls-2" x="0.049" y="465.997" width="1989.951" height="118.796"/>
+      <rect class="cls-2" x="0.049" y="698.999" width="1989.951" height="118.796"/>
+      <rect class="cls-2" x="0.049" y="930.548" width="1989.951" height="118.796"/>
+      <rect class="cls-2" x="0.049" width="1989.951" height="118.796"/>
+      <rect class="cls-2" x="0.049" width="581.522" height="476.48"/>
+      <rect class="cls-1" y="234.148" width="581.575" height="118.796"/>
+      <rect class="cls-1" x="231.054" y="0.197" width="118.47" height="591.437"/>
+    </g>
+  </g>
+</svg>

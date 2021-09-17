@@ -1,3 +1,9 @@
+function Voyage(){
+    setTimeout(function (){
+        document.location.href="construction.php";
+      },2000);
+  }
+
 document.addEventListener("DOMContentLoaded", function(){
     var el = document.querySelector(".button-bird");
     var cache = document.querySelector(".cache");

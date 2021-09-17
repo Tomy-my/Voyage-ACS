@@ -32,6 +32,7 @@
     </div>
 </footer>
 
+<script type="text/javascript" src="./public/javascript/sub_menu.js"></script>
 <script type="text/javascript" src="./public/javascript/button_bird.js"></script>
 </body>
 
