@@ -1,6 +1,6 @@
 function Voyage(){
     setTimeout(function (){
-        document.location.href="construction.php";
+        document.location.href="destinations.php";
       },2000);
   }
 

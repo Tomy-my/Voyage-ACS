@@ -3,9 +3,6 @@
   .footer_left {
     width: 65%;
   }
-  .footer_mid {
-    /* display: none; */
-  }
 }
 /* ------------Écran inférieur à 1666px------------ */
 @media all and (max-width: 1666px) {
