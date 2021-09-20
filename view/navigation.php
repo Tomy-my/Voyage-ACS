@@ -8,7 +8,7 @@
     </div>
     <div class="ct_mid_nav">
         <div class="container_nav _ct_nav_d">
-            <a href="./construction.php">
+            <a href="./destinations.php">
                 <div class="logo_cat">
                     <i class="fas fa-map-marked-alt"></i>
                 </div>

@@ -13,6 +13,12 @@
     padding-left: 50px;
     padding-right: 50px;
   }
+  /* -------------------------------------- */
+  /* ------------Destinations, headband------------  */
+  .explore_headband ._container_text_explore {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 /* ------------Écran inférieur à 1500px------------ */
 @media all and (max-width: 1500px) {
@@ -22,12 +28,26 @@
   .promote .ct_selection {
     width: auto;
   }
+  /* -------------------------------------- */
+  /* ------------Destinations, headband------------  */
+  .explore_headband ._container_text_explore {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 /* ------------Écran inférieur à 1430px------------ */
 @media all and (max-width: 1430px) {
   .headband {
     padding-left: 100px;
     padding-right: 100px;
+  }
+  /* -------------------------------------- */
+  /* ------------Destinations, headband------------  */
+  .explore_headband ._container_text_explore {
+    left: 10%;
+
+    width: 80%;
+    text-align: initial;
   }
 }
 /* ------------Écran inférieur à 1250px------------ */
@@ -79,10 +99,18 @@
   .promote .ct_selection {
     height: 135vh;
   }
-      /* -------------------------------------- */
+  /* -------------------------------------- */
   /* ------------Construction------------  */
   .left_construction {
     width: 45%;
+  }
+  /* -------------------------------------- */
+  /* ------------Destinations, les cartes------------  */
+  .container_carte_destinations {
+    column-gap: 30px;
+
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 /* ------------Écran inférieur à 900px------------ */
@@ -198,7 +226,7 @@
   footer {
     display: none;
   }
-    /* -------------------------------------- */
+  /* -------------------------------------- */
   /* ------------Construction------------  */
   .construction {
     flex-direction: column;
@@ -215,6 +243,26 @@
   }
   .right_construction {
     width: 63%;
+  }
+  /* -------------------------------------- */
+  /* ------------Destinations------------  */
+  .ct_background_destinations ._background_ct h1 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .container_carte_destinations {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .explore_headband ._container_text_explore {
+    padding: 10px;
+  }
+  ._container_text_explore h3 {
+    margin-bottom: 0px;
+  }
+  ._container_text_explore p {
+    margin-top: 15px;
   }
 }
 /* ------------Écran inférieur à 850px------------ */
@@ -255,6 +303,35 @@
   }
   .promote .leading_title {
     padding-left: 10px;
+  }
+}
+/* ------------Écran inférieur à 685px------------ */
+@media all and (max-width: 685px) {
+  .container_carte_destinations {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  /* -------------------------------------- */
+  /* ------------Destination------------  */
+  .ct_background_destinations ._background_ct h1 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .explore_headband {
+    height: 780px;
+
+    margin-bottom: 100px;
+  }
+  .explore_headband ._container_text_explore {
+    left: 0px;
+
+    width: 100%;
+    height: 620px;
+    margin-bottom: -620px;
+  }
+
+  ._container_text_explore h3 {
+    margin-top: 5px;
   }
 }
 /* ------------Écran inférieur à 470px------------ */
