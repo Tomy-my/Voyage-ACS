@@ -31,7 +31,7 @@ include('view/navigation.php');
 
             <div class="ct_search _group_btn">
                 <div class="group_saison">
-                    <h4 class="name_block_search">Activtés</h4>
+                    <h4 class="name_block_search">Activités</h4>
                     <select id="select_activite">
                         <option class="option_lock" selected disabled>Que faire ?</option>
                         <option value="#">Randonnés</option>
