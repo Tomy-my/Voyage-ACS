@@ -4,6 +4,8 @@ $titre = "Voyage inexploré | Accueil";
 include('view/header.php');
 
 include('view/navigation.php');
+
+require_once("model/config_bdd.php");
 ?>
 <div class="logo_mobile">
     <img src="public/images/mainLogo2.svg">
@@ -118,36 +120,24 @@ include('view/navigation.php');
         <h2>Notre sélection des meilleurs destinations pour voyager en toute sécurité</h2>
     </div>
     <div class="ct_selection">
-        <div class="_selection">
-            <img class="picture" src="public/images/icelande.jpg" alt="Illustration du pays">
-            <h3>Islande</h3>
-            <button class="btn_selection">
-                <a href="construction.php">
-                    Découvrir
-                </a>
-            </button>
-            <div class="filter"></div>
-        </div>
-        <div class="_selection">
-            <img class="picture" src="public/images/norway.png" alt="Illustration du pays">
-            <h3>Norvège</h3>
-            <button class="btn_selection">
-                <a href="construction.php">
-                    Découvrir
-                </a>
-            </button>
-            <div class="filter"></div>
-        </div>
-        <div class="_selection">
-            <img class="picture" src="public/images/canada.jpg" alt="Illustration du pays">
-            <h3>Canada</h3>
-            <button class="btn_selection">
-                <a href="construction.php">
-                    Découvrir
-                </a>
-            </button>
-            <div class="filter"></div>
-        </div>
+        <?php
+            $select_stmt = $db->prepare("SELECT name, image FROM country WHERE affichage LIKE 'affichage' ORDER BY id LIMIT 3");
+            $select_stmt->execute();
+            while ($row = $select_stmt->fetch(PDO::FETCH_ASSOC)) {
+        ?>
+            <div class="_selection">
+                <img class="picture" src="public/upload/<?php echo $row['image']; ?>" alt="Illustration du pays">
+                <h3><?php echo $row['name']; ?></h3>
+                <button class="btn_selection">
+                    <a href="construction.php">
+                        Découvrir
+                    </a>
+                </button>
+                <div class="filter"></div>
+            </div>
+        <?php
+            }
+        ?>
     </div>
 </div>
 <div class="promote_activity">
@@ -162,33 +152,49 @@ include('view/navigation.php');
                     <hr id="activity_a_underline">
                 </a>
             </div>
-            <div class="_activity">
-                <div class="_ct_img_activity">
-                    <img src="public/images/ship.jpg" alt="Image illustrant le pays + l'activité">
-                    <h3>Croisères </h3>
-                    <button class="btn_activity">
-                        <a href="construction.php">
-                            Découvrir
-                        </a>
-                    </button>
-                    <div class="filter"></div>
+            <?php
+                $select_stmt = $db->prepare("SELECT name, image FROM activity WHERE affichage LIKE 'activity_right' ORDER BY id DESC LIMIT 1");
+                $select_stmt->execute();
+                while ($row = $select_stmt->fetch(PDO::FETCH_ASSOC)) {
+            ?>
+                <div class="_activity">
+                    <div class="_ct_img_activity">
+                        <img src="public/upload/<?php echo $row['image']; ?>" alt="Image illustrant le pays + l'activité">
+                        <h3><?php echo $row['name']; ?></h3>
+                        <button class="btn_activity">
+                            <a href="construction.php">
+                                Découvrir
+                            </a>
+                        </button>
+                        <div class="filter"></div>
+                    </div>
                 </div>
-            </div>
+            <?php
+                }
+            ?>
         </div>
         <div class="pa_line2">
-            <div class="_activity">
-                <div class="_ct_img_activity">
-                    <img src="public/images/marche.jpg" alt="Image illustrant l'activité">
-                    <h3>Randonées</h3>
-                    <button class="btn_activity">
-                        <a href="construction.php">
-                            Découvrir
-                        </a>
-                    </button>
-                    <div class="filter"></div>
+            <?php
+                $select_stmt = $db->prepare("SELECT name, image FROM activity WHERE affichage LIKE 'activity_bottom' ORDER BY id LIMIT 2");
+                $select_stmt->execute();
+                while ($row = $select_stmt->fetch(PDO::FETCH_ASSOC)) {
+            ?>
+                <div class="_activity">
+                    <div class="_ct_img_activity">
+                        <img src="public/upload/<?php echo $row['image']; ?>" alt="Image illustrant l'activité">
+                        <h3><?php echo $row['name']; ?></h3>
+                        <button class="btn_activity">
+                            <a href="construction.php">
+                                Découvrir
+                            </a>
+                        </button>
+                        <div class="filter"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="_activity">
+            <?php
+                }
+            ?>
+            <!-- <div class="_activity">
                 <div class="_ct_img_activity">
                     <img src="public/images/repos.jpg" alt="Image illustrant l'activité">
                     <h3>Repos</h3>
@@ -198,7 +204,7 @@ include('view/navigation.php');
                         </a>
                     </button>
                     <div class="filter"></div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

@@ -4,6 +4,8 @@ $titre = "Voyage inexploré | Accueil";
 include('view/header.php');
 
 include('view/navigation.php');
+
+require_once("model/config_bdd.php");
 ?>
 <div class="logo_mobile">
     <img src="public/images/mainLogo2.svg">
@@ -15,52 +17,24 @@ include('view/navigation.php');
     </div>
 </div>
 <div class="container_carte_destinations">
-    <div class="_carte">
-        <div class="ct_img">
-            <img src="public/images/country/italie.jpg" alt="Image du pays">
+    <?php
+        $select_stmt = $db->prepare("SELECT name, image FROM country");
+        $select_stmt->execute();
+        while ($row = $select_stmt->fetch(PDO::FETCH_ASSOC)) {
+    ?>
+        <div class="_carte">
+            <div class="ct_img">
+                <img src="public/upload/<?php echo $row['image']; ?>" alt="Image du pays">
+            </div>
+            <h4><?php echo $row['name']; ?></h4>
+            <a href="construction.php">
+                <button class="btn_choisir">Sélectionner</button>
+            </a>
         </div>
-        <h4>Italie</h4>
-        <a href="construction.php">
-            <button class="btn_choisir">Sélectionner</button>
-        </a>
-    </div>
-    <div class="_carte">
-        <div class="ct_img">
-            <img src="public/images/country/france.jpg" alt="Image du pays">
-        </div>
-        <h4>France</h4>
-        <a href="construction.php">
-            <button class="btn_choisir">Sélectionner</button>
-        </a>
-    </div>
-    <div class="_carte">
-        <div class="ct_img">
-            <img src="public/images/country/canada.jpg" alt="Image du pays">
-        </div>
-        <h4>Canada</h4>
-        <a href="construction.php">
-            <button class="btn_choisir">Sélectionner</button>
-        </a>
-    </div>
-    <div class="_carte">
-        <div class="ct_img">
-            <img src="public/images/country/japon.jpg" alt="Image du pays">
-        </div>
-        <h4>Japon</h4>
-        <a href="construction.php">
-            <button class="btn_choisir">Sélectionner</button>
-        </a>
-    </div>
-    <div class="_carte">
-        <div class="ct_img">
-            <img src="public/images/country/italie.jpg" alt="Image du pays">
-        </div>
-        <h4>Italie</h4>
-        <a href="construction.php">
-            <button class="btn_choisir">Sélectionner</button>
-        </a>
-    </div>
-    <div class="_carte">
+    <?php
+        }
+    ?>
+    <!-- <div class="_carte">
         <div class="ct_img">
             <img src="public/images/country/france.jpg" alt="Image du pays">
         </div>
@@ -123,6 +97,42 @@ include('view/navigation.php');
             <button class="btn_choisir">Sélectionner</button>
         </a>
     </div>
+    <div class="_carte">
+        <div class="ct_img">
+            <img src="public/images/country/italie.jpg" alt="Image du pays">
+        </div>
+        <h4>Italie</h4>
+        <a href="construction.php">
+            <button class="btn_choisir">Sélectionner</button>
+        </a>
+    </div>
+    <div class="_carte">
+        <div class="ct_img">
+            <img src="public/images/country/france.jpg" alt="Image du pays">
+        </div>
+        <h4>France</h4>
+        <a href="construction.php">
+            <button class="btn_choisir">Sélectionner</button>
+        </a>
+    </div>
+    <div class="_carte">
+        <div class="ct_img">
+            <img src="public/images/country/canada.jpg" alt="Image du pays">
+        </div>
+        <h4>Canada</h4>
+        <a href="construction.php">
+            <button class="btn_choisir">Sélectionner</button>
+        </a>
+    </div>
+    <div class="_carte">
+        <div class="ct_img">
+            <img src="public/images/country/japon.jpg" alt="Image du pays">
+        </div>
+        <h4>Japon</h4>
+        <a href="construction.php">
+            <button class="btn_choisir">Sélectionner</button>
+        </a>
+    </div> -->
 </div>
 <div class="explore_headband">
     <img src="public/images/kayak.jpg" alt="Image décorative">

@@ -1819,7 +1819,7 @@ footer a:visited {
 
   background-image: url("../images/world_map.svg");
   background-repeat: no-repeat;
-  background-size: 77%;
+  background-size: 50%;
   background-position: bottom;
 
   z-index: 2;
@@ -1870,7 +1870,7 @@ footer a:visited {
   width: 100%;
   height: 50px;
 
-  background: linear-gradient(70deg, #0a526fe6, #08656f);
+  background-color: #1a3c59d6;
 
   border: none;
   border-bottom-left-radius: 15px;
@@ -1893,7 +1893,7 @@ footer a:visited {
 }
 
 .container_carte_destinations .btn_choisir:hover {
-  background-color: #356177;
+  background-color: #1c4569d6;
 }
 /* -------------------------------explore------------------------------- */
 .explore_headband {
