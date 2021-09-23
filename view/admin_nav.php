@@ -11,6 +11,7 @@
             <div class="line"></div>
         </div>
     </div>
+    <a href="./controller/logout.php">Déconnexion</a>
     <!-- <div class="stage_2">
         <ul>
             <a href=""><li>Dashboard</li></a>

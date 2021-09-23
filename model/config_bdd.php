@@ -1,7 +1,7 @@
 <?php
 
 $host = "localhost";
-$dbname = "lebazar";
+$dbname = "evatrip";
 $admin = "root";
 $pass = "";
 

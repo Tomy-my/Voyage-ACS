@@ -36,7 +36,7 @@ a:link {
 /* -------------------------------Navigation------------------------------- */
 nav {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
 
   position: fixed;
 
